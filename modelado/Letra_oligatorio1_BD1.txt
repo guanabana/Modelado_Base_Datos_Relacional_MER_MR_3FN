@@ -1,0 +1,16 @@
+La Radio X quiere realizar un sistema de blogs para que cada uno de sus programas escriba posts que puedan resultar de interés a los oyentes.
+De los Programas se conocen el nombre que es único, su descripción, la lista de sus conductores y un horario que se componen por la hora en la que inicia y la hora en la que termina. Los conductores de cada programa son los encargados en escribir los Post.
+De los Post se sabe su título que es único, el contenido, una imagen y un resumen del mismo para mostrar en los listados de los posts.
+De cada Conductor se conoce el nombre, sus teléfonos, sexo, dirección, fecha de nacimiento, el país de nacimiento y un número de documento que lo identifica.
+Los Países se identifican por su nombre que es único. En un país pueden nacer varios conductores y un conductor nace en un único país.
+El conductor de un programa puede escribir muchos posts, pero cada post está escrito solo por un conductor de un programa.
+Un conductor puede conducir muchos programas y un programa puede ser conducido por varios conductores.
+Para diferenciar los post en distintos grupos, el sistema cuenta con la posibilidad de asignar categorías a las mismas. De ellas conocemos el nombre, el cual es único, su descripción y una imagen que la identifica.
+El sistema de categorías cuenta con la ventaja de poder crear jerarquías muy fácilmente, esto quiere decir que una categoría puede pertenecer a otra, por ejemplo, podría existir la categoría “Música” y esta a su vez contener dos categorías hijas “Rock” y “Pop”.
+Para que los usuarios de la radio puedan realizar interacciones en el blog, el sistema permite que los usuarios se registren y realicen distintos comentarios a los post. De los usuarios conocemos su username, password, fecha de registro, avatar y un email el cual solo puede registrarse una vez.
+Los comentarios poseen un número de id y el texto que lo compone. Se interesa conocer la fecha en que el usuario realiza el comentario. Los comentarios pueden ser públicos o privados, los privados se identifican por un número autonumérico.
+Cuando un conductor de un programa realiza un posteo este puede o no recibir comentarios, los comentarios realizados por los usuarios son únicos para cada post.
+Los usuarios pueden realizar varios comentarios y un comentario es realizado por un único usuario.
+Se pide:
+1. Modelo Entidad-Relación que permita almacenar la información necesaria para cumplir todos los requerimientos del sistema mencionado. Se deben especificar claramente los atributos de cada entidad o relación, la cardinalidad de asignación, participación total o parcial, agregaciones, generalizaciones, entidades débiles y toda restricción (no estructural y de dominio) que no se pueda deducir del modelo. (Máximo 12 puntos).
+2. Modelo relacional correspondiente llevado a un esquema normalizado al menos hasta 3ª forma normal, expresando claramente claves primarias, foráneas, unicidades a través de un cuadro de claves y toda dependencia funcional no controlada por éstas, así como otras restricciones no estructurales y de dominio que no se puedan deducir del modelo equivalente al MER del punto 1. (Máximo 8 puntos)
